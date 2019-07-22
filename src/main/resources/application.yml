@@ -1,0 +1,12 @@
+app:
+  jsonFile: classpath:books.json
+
+spring:
+  h2:
+    console:
+      enabled: true
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+  properties:
+    hibernate:
+      id: new_generator_mappings=FALSE

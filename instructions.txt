@@ -1,0 +1,16 @@
+Building
+To build the project use following command:
+.................................................
+mvn clean package
+
+Running
+Command below allows to run project without mvn clean package:
+.................................................
+mvn spring-boot:run
+
+Application starts on port: 8080
+Application configration file: libraryAPI\src\main\resources\application.yml
+
+If not specified database will be created by default from file: libraryAPI\src\main\resources\books.json 
+To specify file, specify value in the cofiguration file for entry: app.jsonFile 
+ 
